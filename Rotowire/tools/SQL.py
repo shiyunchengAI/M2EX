@@ -15,7 +15,7 @@ from typing import Any, Callable, Dict, Literal, Optional, Sequence, Type, Union
 
 from src.utils import _get_db_schema
 
-
+# @TODO: Adapt the following code to rotowire. 
 _meta_data="""
 The column 'title' in the table contains the title of the artwork. Type: TEXT.
 The column 'inception' in the table contains the date when the artwork was created. Type: DATETIME.
@@ -176,94 +176,3 @@ def get_text2SQL_tools(llm: ChatOpenAI, db_path:str):
         func=text2SQL,
         description=_DESCRIPTION,
     )
-
-"""
-# use vmodule for swissai
-
-from vagent.core import VContext, VModule, llm_program
-from vagent.executor import LocalFuncExecutor
-from ArtWork.tools.utils import docstring
-
-class Text2SQL(VModule):
-    def __init__(self, model="meta-llama/Llama-3.3-70B-Instruct", temperature=0, max_tokens=2048):
-        super().__init__()
-        self.model = model
-        self.temperature = temperature
-        self.max_tokens = max_tokens
-        self.tools = [_execute_sql_query]
-        self.executor = LocalFuncExecutor(tools=self.tools)
-        self.generate_sql = llm_program(
-            model=self.model, temperature=self.temperature, max_tokens=self.max_tokens, tools=self.tools
-        )(self.generate_sql)
-
-    @docstring(_SYSTEM_PROMPT)
-    def generate_sql(ctx: VContext, db_path:str):
-        
-        _db_schema = _get_db_schema(db_path)
-        
-        prompt = "\n".join[ctx.get("problem", None), _db_schema, _meta_data]
-        if ctx.get("info", False):
-            prompt = "\n".join([prompt, ctx.get("info")])
-        return prompt
-    
-    def forward(self, ctx: VContext, db_path:str):
-        sql = self.generate_sql(ctx, db_path)
-        func_output = self.executor(sql)
-        
-        # @TODO 
-        
-        # extractor = create_structured_output_runnable(ExecuteCode, llm, prompt)
-        extractor= prompt | llm.with_structured_output(ExecuteCode)
-        # extractor= prompt | llm # for debugging
-        
-        def text2SQL(
-            problem: str,
-            context: Optional[Union[str,List[str]]] = None,
-        ):
-            #tables_columns=_parse_input(tables_columns)
-            chain_input = {"problem": problem}
-            if context:
-                if isinstance(context,list):
-                    context_str = "\n".join(context)
-                else:
-                    context_str = context
-                chain_input["info"] = [HumanMessage(content=context_str)]
-            code_model = extractor.invoke(chain_input)
-            try:
-                return _execute_sql_query(code_model.SQL, db_path)
-            except Exception as e:
-                # self_debugging 
-                err = repr(e)
-                _error_handiling_prompt=f"Something went wrong on executing SQL: `{code_model.SQL}`. This is the error I got: `{err}`. \\ Can you fixed the problem and write the fixed SQL code?"
-                chain_input["info"] =[HumanMessage(content= [context_str, _error_handiling_prompt])]
-                code_model = extractor.invoke(chain_input)
-                try:
-                    return _execute_sql_query(code_model.SQL, db_path)
-                except Exception as e:
-                    return repr(e)
-
-        return StructuredTool.from_function(
-            name="text2SQL",
-            func=text2SQL,
-            description=_DESCRIPTION,
-        )
-
-
-"""
-
-'''
- chat_thread = []
-        i = 0
-        while True:
-            try:
-                func, dtype, func_str = self.get_func(explanation, ds.data_frame[column][:10],
-                                                      chat_thread=chat_thread, column=column, new_column=new_name)
-                df = ds.data_frame.copy()
-                df[new_name] = df[column].apply(func).astype(dtype)
-                return df, func_str
-            except Exception as e:
-                if i >= 3:
-                    raise ExecutionError(description="Python tool failed. Use another tool!")
-                chat_thread = self.handle_errors(chat_thread=chat_thread, error=e, request=explanation)
-                i += 1
-'''
