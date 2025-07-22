@@ -1,0 +1,14 @@
+{
+    "Western": {
+        "name": "Kings",
+        "conference": "Western",
+        "founded": "1923",
+        "age": 102
+    },
+    "Eastern": {
+        "name": "Pistons",
+        "conference": "Eastern",
+        "founded": "1937",
+        "age": 88
+    }
+}

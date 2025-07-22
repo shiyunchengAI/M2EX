@@ -1,0 +1,110 @@
+[
+    {
+        "player_name": "Joe Johnson",
+        "nationality": "",
+        "highest_three_pointers": 6,
+        "game_id": 73
+    },
+    {
+        "player_name": "Avery Bradley",
+        "nationality": "",
+        "highest_three_pointers": 6,
+        "game_id": 81
+    },
+    {
+        "player_name": "Tony Snell",
+        "nationality": "",
+        "highest_three_pointers": 3,
+        "game_id": 142
+    },
+    {
+        "player_name": "Kyle Lowry",
+        "nationality": "",
+        "highest_three_pointers": 4,
+        "game_id": 167
+    },
+    {
+        "player_name": "Kevin Durant",
+        "nationality": "",
+        "highest_three_pointers": 5,
+        "game_id": 175
+    },
+    {
+        "player_name": "Brook Lopez",
+        "nationality": "",
+        "highest_three_pointers": 4,
+        "game_id": 196
+    },
+    {
+        "player_name": "Paul Pierce",
+        "nationality": "",
+        "highest_three_pointers": 4,
+        "game_id": 217
+    },
+    {
+        "player_name": "James Harden",
+        "nationality": "",
+        "highest_three_pointers": 5,
+        "game_id": 228
+    },
+    {
+        "player_name": "Matthew Dellevadova",
+        "nationality": "",
+        "highest_three_pointers": 4,
+        "game_id": 300
+    },
+    {
+        "player_name": "C.J. Miles",
+        "nationality": "",
+        "highest_three_pointers": 6,
+        "game_id": 373
+    },
+    {
+        "player_name": "Rudy Gay",
+        "nationality": "",
+        "highest_three_pointers": 3,
+        "game_id": 387
+    },
+    {
+        "player_name": "Danilo Gallinari",
+        "nationality": "",
+        "highest_three_pointers": 3,
+        "game_id": 389
+    },
+    {
+        "player_name": "Klay Thompson",
+        "nationality": "",
+        "highest_three_pointers": 4,
+        "game_id": 546
+    },
+    {
+        "player_name": "Paul George",
+        "nationality": "",
+        "highest_three_pointers": 7,
+        "game_id": 558
+    },
+    {
+        "player_name": "C.J. Miles",
+        "nationality": "",
+        "highest_three_pointers": 6,
+        "game_id": 565
+    },
+    {
+        "player_name": "Zach LaVine",
+        "nationality": "",
+        "highest_three_pointers": 6,
+        "game_id": 591
+    },
+    {
+        "player_name": "Rodney Hood",
+        "nationality": "",
+        "highest_three_pointers": 5,
+        "game_id": 709
+    },
+    {
+        "player_name": "J.R. Smith",
+        "nationality": "",
+        "highest_three_pointers": 6,
+        "game_id": 713
+    }
+]

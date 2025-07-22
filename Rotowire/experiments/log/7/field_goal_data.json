@@ -1,0 +1,406 @@
+[
+    {
+        "game_id": 6,
+        "team": null
+    },
+    {
+        "game_id": 25,
+        "team": null
+    },
+    {
+        "game_id": 27,
+        "team": null
+    },
+    {
+        "game_id": 30,
+        "team": null
+    },
+    {
+        "game_id": 32,
+        "team": null
+    },
+    {
+        "game_id": 44,
+        "team": "Cleveland Cavaliers"
+    },
+    {
+        "game_id": 46,
+        "team": "San Antonio Spurs"
+    },
+    {
+        "game_id": 57,
+        "team": null
+    },
+    {
+        "game_id": 67,
+        "team": "Cleveland Cavaliers"
+    },
+    {
+        "game_id": 71,
+        "team": null
+    },
+    {
+        "game_id": 73,
+        "team": "Utah Jazz"
+    },
+    {
+        "game_id": 80,
+        "team": "The New Orleans Pelicans",
+        "percentage": 51
+    },
+    {
+        "game_id": 81,
+        "team": "Boston Celtics"
+    },
+    {
+        "game_id": 89,
+        "team": null
+    },
+    {
+        "game_id": 94,
+        "team": null
+    },
+    {
+        "game_id": 95,
+        "team": "Jazz"
+    },
+    {
+        "game_id": 99,
+        "team": null
+    },
+    {
+        "game_id": 103,
+        "team": null
+    },
+    {
+        "game_id": 104,
+        "team": null
+    },
+    {
+        "game_id": 114,
+        "team": null
+    },
+    {
+        "game_id": 127,
+        "team": null
+    },
+    {
+        "game_id": 142,
+        "team": null
+    },
+    {
+        "game_id": 159,
+        "team": "Denver Nuggets"
+    },
+    {
+        "game_id": 163,
+        "team": null
+    },
+    {
+        "game_id": 166,
+        "team": "Washington Wizards"
+    },
+    {
+        "game_id": 167,
+        "team": null
+    },
+    {
+        "game_id": 175,
+        "team": null
+    },
+    {
+        "game_id": 196,
+        "team": "Brooklyn Nets"
+    },
+    {
+        "game_id": 203,
+        "team": null
+    },
+    {
+        "game_id": 214,
+        "team": null
+    },
+    {
+        "game_id": 216,
+        "team": null
+    },
+    {
+        "game_id": 217,
+        "team": "Washington Wizards"
+    },
+    {
+        "game_id": 220,
+        "team": "The Magic"
+    },
+    {
+        "game_id": 223,
+        "team": "Golden State Warriors"
+    },
+    {
+        "game_id": 224,
+        "team": "Houston Rockets"
+    },
+    {
+        "game_id": 225,
+        "team": "Brooklyn Nets"
+    },
+    {
+        "game_id": 228,
+        "team": null
+    },
+    {
+        "game_id": 233,
+        "team": null
+    },
+    {
+        "game_id": 234,
+        "team": "Los Angeles Clippers"
+    },
+    {
+        "game_id": 238,
+        "team": null
+    },
+    {
+        "game_id": 250,
+        "team": "Oklahoma City Thunder"
+    },
+    {
+        "game_id": 270,
+        "team": "Raptors"
+    },
+    {
+        "game_id": 273,
+        "team": null
+    },
+    {
+        "game_id": 274,
+        "team": null
+    },
+    {
+        "game_id": 276,
+        "team": null
+    },
+    {
+        "game_id": 281,
+        "team": "Detroit Pistons"
+    },
+    {
+        "game_id": 284,
+        "team": null
+    },
+    {
+        "game_id": 296,
+        "team": null
+    },
+    {
+        "game_id": 300,
+        "team": null
+    },
+    {
+        "game_id": 322,
+        "team": null
+    },
+    {
+        "game_id": 323,
+        "team": null
+    },
+    {
+        "game_id": 332,
+        "team": "Utah Jazz"
+    },
+    {
+        "game_id": 344,
+        "team": null
+    },
+    {
+        "game_id": 348,
+        "team": "Oklahoma City Thunder"
+    },
+    {
+        "game_id": 352,
+        "team": null
+    },
+    {
+        "game_id": 363,
+        "team": "Los Angeles Clippers"
+    },
+    {
+        "game_id": 367,
+        "team": null
+    },
+    {
+        "game_id": 370,
+        "team": null
+    },
+    {
+        "game_id": 373,
+        "team": null
+    },
+    {
+        "game_id": 379,
+        "team": null
+    },
+    {
+        "game_id": 387,
+        "team": "Sacramento Kings"
+    },
+    {
+        "game_id": 388,
+        "team": null
+    },
+    {
+        "game_id": 389,
+        "team": "Brooklyn Nets"
+    },
+    {
+        "game_id": 410,
+        "team": null
+    },
+    {
+        "game_id": 429,
+        "team": null
+    },
+    {
+        "game_id": 432,
+        "team": "Cleveland Cavaliers",
+        "percentage": 49
+    },
+    {
+        "game_id": 459,
+        "team": "Cleveland Cavaliers"
+    },
+    {
+        "game_id": 464,
+        "team": null
+    },
+    {
+        "game_id": 470,
+        "team": null
+    },
+    {
+        "game_id": 473,
+        "team": "Washington Wizards"
+    },
+    {
+        "game_id": 511,
+        "team": null
+    },
+    {
+        "game_id": 517,
+        "team": "Los Angeles Clippers",
+        "percentage": 59
+    },
+    {
+        "game_id": 546,
+        "team": null
+    },
+    {
+        "game_id": 549,
+        "team": "Atlanta Hawks"
+    },
+    {
+        "game_id": 558,
+        "team": null
+    },
+    {
+        "game_id": 565,
+        "team": "Nuggets"
+    },
+    {
+        "game_id": 570,
+        "team": "Golden State Warriors"
+    },
+    {
+        "game_id": 574,
+        "team": "Minnesota Timberwolves"
+    },
+    {
+        "game_id": 580,
+        "team": null
+    },
+    {
+        "game_id": 591,
+        "team": "Timberwolves"
+    },
+    {
+        "game_id": 603,
+        "team": "Boston Celtics",
+        "percentage": 49
+    },
+    {
+        "game_id": 604,
+        "team": null
+    },
+    {
+        "game_id": 616,
+        "team": null
+    },
+    {
+        "game_id": 618,
+        "team": null
+    },
+    {
+        "game_id": 623,
+        "team": null
+    },
+    {
+        "game_id": 633,
+        "team": "Denver"
+    },
+    {
+        "game_id": 643,
+        "team": "Boston Celtics"
+    },
+    {
+        "game_id": 650,
+        "team": null
+    },
+    {
+        "game_id": 654,
+        "team": "Los Angeles Clippers"
+    },
+    {
+        "game_id": 665,
+        "team": null
+    },
+    {
+        "game_id": 686,
+        "team": null
+    },
+    {
+        "game_id": 692,
+        "team": "Memphis Grizzlies"
+    },
+    {
+        "game_id": 697,
+        "team": null
+    },
+    {
+        "game_id": 709,
+        "team": "Utah Jazz"
+    },
+    {
+        "game_id": 713,
+        "team": null
+    },
+    {
+        "game_id": 714,
+        "team": null
+    },
+    {
+        "game_id": 717,
+        "team": "Wizards"
+    },
+    {
+        "game_id": 718,
+        "team": null
+    },
+    {
+        "game_id": 719,
+        "team": null
+    },
+    {
+        "game_id": 722,
+        "team": null
+    }
+]

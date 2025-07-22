@@ -1,0 +1,665 @@
+[
+    {
+        "game_id": 6,
+        "teams": {
+            "Jazz": 42,
+            "Lakers": 65
+        }
+    },
+    {
+        "game_id": 25,
+        "teams": {
+            "Grizzlies": 16,
+            "Heat": 13
+        }
+    },
+    {
+        "game_id": 27,
+        "teams": {
+            "Mavericks": 13,
+            "Nets": 21
+        }
+    },
+    {
+        "game_id": 30,
+        "teams": {
+            "Hornets": null
+        }
+    },
+    {
+        "game_id": 32,
+        "teams": {
+            "Bucks": 14,
+            "Clippers": 8
+        }
+    },
+    {
+        "game_id": 44,
+        "teams": {
+            "Cavaliers": 7,
+            "Raptors": 5
+        }
+    },
+    {
+        "game_id": 46,
+        "teams": {
+            "Lakers": 41,
+            "Spurs": 13
+        }
+    },
+    {
+        "game_id": 57,
+        "teams": {
+            "Jazz": 16,
+            "76ers": 31
+        }
+    },
+    {
+        "game_id": 67,
+        "teams": {
+            "Cavaliers": 5,
+            "Knicks": 10
+        }
+    },
+    {
+        "game_id": 71,
+        "teams": {
+            "Mavericks": 34,
+            "Pistons": 30
+        }
+    },
+    {
+        "game_id": 73,
+        "teams": {
+            "Jazz": null,
+            "Pelicans": 1
+        }
+    },
+    {
+        "game_id": 80,
+        "teams": {
+            "Nets": 32,
+            "Pelicans": 27
+        }
+    },
+    {
+        "game_id": 81,
+        "teams": {
+            "Celtics": 22,
+            "Kings": 30
+        }
+    },
+    {
+        "game_id": 89,
+        "teams": {
+            "Heat": 0,
+            "Magic": 1
+        }
+    },
+    {
+        "game_id": 94,
+        "teams": {
+            "Jazz": 36,
+            "Pistons": 43
+        }
+    },
+    {
+        "game_id": 95,
+        "teams": {
+            "Jazz": null
+        }
+    },
+    {
+        "game_id": 99,
+        "teams": {
+            "Kings": 15,
+            "Knicks": 14
+        }
+    },
+    {
+        "game_id": 103,
+        "teams": {
+            "Bulls": null
+        }
+    },
+    {
+        "game_id": 104,
+        "teams": {
+            "Bucks": 4,
+            "Pelicans": 8
+        }
+    },
+    {
+        "game_id": 114,
+        "teams": {
+            "Nuggets": 40,
+            "Rockets": 20
+        }
+    },
+    {
+        "game_id": 127,
+        "teams": {
+            "Hornets": 45,
+            "Raptors": 32
+        }
+    },
+    {
+        "game_id": 142,
+        "teams": {
+            "Bucks": 3,
+            "Bulls": null
+        }
+    },
+    {
+        "game_id": 159,
+        "teams": {
+            "Nuggets": 15,
+            "Pacers": 19
+        }
+    },
+    {
+        "game_id": 163,
+        "teams": {
+            "Hawks": 16,
+            "Spurs": 7
+        }
+    },
+    {
+        "game_id": 166,
+        "teams": {
+            "Raptors": 17,
+            "Wizards": 21
+        }
+    },
+    {
+        "game_id": 167,
+        "teams": {
+            "Heat": 3,
+            "Raptors": null
+        }
+    },
+    {
+        "game_id": 175,
+        "teams": {
+            "Suns": 39,
+            "Thunder": 14
+        }
+    },
+    {
+        "game_id": 196,
+        "teams": {
+            "Nets": 3,
+            "Pistons": 2
+        }
+    },
+    {
+        "game_id": 214,
+        "teams": {
+            "Bucks": null,
+            "Knicks": null
+        }
+    },
+    {
+        "game_id": 216,
+        "teams": {
+            "Bulls": 2,
+            "Raptors": 3
+        }
+    },
+    {
+        "game_id": 217,
+        "teams": {
+            "Jazz": 37,
+            "Wizards": 28
+        }
+    },
+    {
+        "game_id": 220,
+        "teams": {
+            "Magic": 13,
+            "Pelicans": 21
+        }
+    },
+    {
+        "game_id": 223,
+        "teams": {
+            "Spurs": 0,
+            "Warriors": 1
+        }
+    },
+    {
+        "game_id": 224,
+        "teams": {
+            "Rockets": 25,
+            "Suns": 37
+        }
+    },
+    {
+        "game_id": 225,
+        "teams": {
+            "Nets": 50,
+            "Pistons": 34
+        }
+    },
+    {
+        "game_id": 228,
+        "teams": {
+            "Grizzlies": 7,
+            "Rockets": 10
+        }
+    },
+    {
+        "game_id": 233,
+        "teams": {
+            "Grizzlies": 21,
+            "Pistons": 43
+        }
+    },
+    {
+        "game_id": 234,
+        "teams": {
+            "Clippers": 2,
+            "Spurs": 2
+        }
+    },
+    {
+        "game_id": 238,
+        "teams": {
+            "Raptors": 17,
+            "Spurs": 9
+        }
+    },
+    {
+        "game_id": 250,
+        "teams": {
+            "Lakers": 40,
+            "Thunder": 25
+        }
+    },
+    {
+        "game_id": 270,
+        "teams": {
+            "Raptors": null
+        }
+    },
+    {
+        "game_id": 273,
+        "teams": {
+            "Raptors": 0,
+            "Thunder": 1
+        }
+    },
+    {
+        "game_id": 274,
+        "teams": {
+            "Celtics": 2,
+            "Hawks": 1
+        }
+    },
+    {
+        "game_id": 276,
+        "teams": {
+            "Hornets": 16,
+            "Thunder": 10
+        }
+    },
+    {
+        "game_id": 281,
+        "teams": {
+            "Hornets": 8,
+            "Pistons": 10
+        }
+    },
+    {
+        "game_id": 284,
+        "teams": {
+            "Bulls": null
+        }
+    },
+    {
+        "game_id": 296,
+        "teams": {
+            "76ers": 46,
+            "Nets": 58
+        }
+    },
+    {
+        "game_id": 300,
+        "teams": {
+            "Cavaliers": 12,
+            "Timberwolves": 32
+        }
+    },
+    {
+        "game_id": 322,
+        "teams": {
+            "Bulls": 29,
+            "Timberwolves": 34
+        }
+    },
+    {
+        "game_id": 323,
+        "teams": {
+            "Pelicans": 43,
+            "Trail Blazers": 34
+        }
+    },
+    {
+        "game_id": 332,
+        "teams": {
+            "Jazz": 1,
+            "Pistons": 0
+        }
+    },
+    {
+        "game_id": 344,
+        "teams": {
+            "Celtics": 25,
+            "Suns": 51
+        }
+    },
+    {
+        "game_id": 348,
+        "teams": {
+            "76ers": 18,
+            "Thunder": 13
+        }
+    },
+    {
+        "game_id": 352,
+        "teams": {
+            "Clippers": 14,
+            "Suns": 19
+        }
+    },
+    {
+        "game_id": 363,
+        "teams": {
+            "Clippers": 1,
+            "Spurs": 2
+        }
+    },
+    {
+        "game_id": 370,
+        "teams": {
+            "Cavaliers": 16,
+            "Raptors": 18
+        }
+    },
+    {
+        "game_id": 373,
+        "teams": {
+            "Pacers": 43,
+            "Thunder": 37
+        }
+    },
+    {
+        "game_id": 379,
+        "teams": {
+            "Clippers": 1,
+            "Grizzlies": 3
+        }
+    },
+    {
+        "game_id": 387,
+        "teams": {
+            "Kings": 37,
+            "Knicks": 47
+        }
+    },
+    {
+        "game_id": 388,
+        "teams": {
+            "Lakers": 8,
+            "Mavericks": 4
+        }
+    },
+    {
+        "game_id": 389,
+        "teams": {
+            "Nets": 31,
+            "Nuggets": 36
+        }
+    },
+    {
+        "game_id": 410,
+        "teams": {
+            "Jazz": 16,
+            "Pacers": 21
+        }
+    },
+    {
+        "game_id": 429,
+        "teams": {
+            "Clippers": null,
+            "Minnesota": 10
+        }
+    },
+    {
+        "game_id": 432,
+        "teams": {
+            "Bucks": 14,
+            "Cavaliers": 6
+        }
+    },
+    {
+        "game_id": 459,
+        "teams": {
+            "Cavaliers": 20,
+            "Nuggets": 42
+        }
+    },
+    {
+        "game_id": 464,
+        "teams": {
+            "Heat": 30,
+            "Knicks": 44
+        }
+    },
+    {
+        "game_id": 473,
+        "teams": {
+            "Nets": 24,
+            "Wizards": 16
+        }
+    },
+    {
+        "game_id": 517,
+        "teams": {
+            "Clippers": 14,
+            "Nets": 25
+        }
+    },
+    {
+        "game_id": 546,
+        "teams": {
+            "Cavaliers": 18,
+            "Warriors": 5
+        }
+    },
+    {
+        "game_id": 549,
+        "teams": {
+            "Hawks": 2,
+            "Rockets": 3
+        }
+    },
+    {
+        "game_id": 558,
+        "teams": {
+            "Pacers": 5,
+            "Wizards": 5
+        }
+    },
+    {
+        "game_id": 565,
+        "teams": {
+            "Nuggets": null
+        }
+    },
+    {
+        "game_id": 570,
+        "teams": {
+            "Jazz": 10,
+            "Warriors": 3
+        }
+    },
+    {
+        "game_id": 574,
+        "teams": {
+            "Suns": 29,
+            "Timberwolves": 29
+        }
+    },
+    {
+        "game_id": 580,
+        "teams": {
+            "Thunder": 12,
+            "Timberwolves": 27
+        }
+    },
+    {
+        "game_id": 591,
+        "teams": {
+            "Bucks": null,
+            "Timberwolves": null
+        }
+    },
+    {
+        "game_id": 603,
+        "teams": {
+            "76ers": 61,
+            "Celtics": 30
+        }
+    },
+    {
+        "game_id": 604,
+        "teams": {
+            "Grizzlies": null
+        }
+    },
+    {
+        "game_id": 616,
+        "teams": {
+            "Pistons": 15,
+            "Timberwolves": 21
+        }
+    },
+    {
+        "game_id": 618,
+        "teams": {
+            "Cavaliers": 13,
+            "Hornets": 25
+        }
+    },
+    {
+        "game_id": 623,
+        "teams": {
+            "Grizzlies": 2,
+            "Trail Blazers": 4
+        }
+    },
+    {
+        "game_id": 633,
+        "teams": {
+            "Magic": null
+        }
+    },
+    {
+        "game_id": 643,
+        "teams": {
+            "Celtics": 32,
+            "Warriors": 8
+        }
+    },
+    {
+        "game_id": 650,
+        "teams": {
+            "Clippers": 16,
+            "Nets": 28
+        }
+    },
+    {
+        "game_id": 654,
+        "teams": {
+            "Clippers": 29,
+            "Lakers": 51
+        }
+    },
+    {
+        "game_id": 665,
+        "teams": {
+            "Heat": 33,
+            "Pistons": 38
+        }
+    },
+    {
+        "game_id": 686,
+        "teams": {
+            "Heat": null,
+            "Pacers": null
+        }
+    },
+    {
+        "game_id": 692,
+        "teams": {
+            "Grizzlies": 9,
+            "Knicks": 32
+        }
+    },
+    {
+        "game_id": 697,
+        "teams": {
+            "Clippers": null
+        }
+    },
+    {
+        "game_id": 709,
+        "teams": {
+            "Jazz": 10,
+            "Thunder": 11
+        }
+    },
+    {
+        "game_id": 713,
+        "teams": {
+            "Cavaliers": 22,
+            "Hornets": 32
+        }
+    },
+    {
+        "game_id": 714,
+        "teams": {
+            "Hawks": 22,
+            "Mavericks": 23
+        }
+    },
+    {
+        "game_id": 717,
+        "teams": {
+            "Bucks": 7,
+            "Wizards": 3
+        }
+    },
+    {
+        "game_id": 718,
+        "teams": {
+            "Bulls": 13,
+            "Magic": 27
+        }
+    },
+    {
+        "game_id": 719,
+        "teams": {
+            "Trail Blazers": 13,
+            "Wizards": 15
+        }
+    },
+    {
+        "game_id": 722,
+        "teams": {
+            "Pistons": 6,
+            "Wizards": 4
+        }
+    }
+]

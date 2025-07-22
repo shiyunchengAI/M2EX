@@ -1,0 +1,797 @@
+[
+    {
+        "game_id": 25,
+        "player": "Marc Gasol",
+        "assists": 6
+    },
+    {
+        "game_id": 25,
+        "player": "Dwyane Wade",
+        "assists": 5
+    },
+    {
+        "game_id": 27,
+        "player": "J.J. Barea",
+        "assists": 11
+    },
+    {
+        "game_id": 44,
+        "player": "LeBron James",
+        "assists": 13
+    },
+    {
+        "game_id": 44,
+        "player": "Kyle Lowry",
+        "assists": 9
+    },
+    {
+        "game_id": 44,
+        "player": "Kyrie Irving",
+        "assists": 6
+    },
+    {
+        "game_id": 46,
+        "player": "Tony Parker",
+        "assists": 9
+    },
+    {
+        "game_id": 57,
+        "player": "Ish Smith",
+        "assists": 11
+    },
+    {
+        "game_id": 71,
+        "player": "Deron Williams",
+        "assists": 6
+    },
+    {
+        "game_id": 71,
+        "player": "Reggie Jackson",
+        "assists": 4
+    },
+    {
+        "game_id": 80,
+        "player": "Tyreke Evans",
+        "assists": 11
+    },
+    {
+        "game_id": 81,
+        "player": "Rajon Rondo",
+        "assists": 15
+    },
+    {
+        "game_id": 95,
+        "player": "George Hill",
+        "assists": 6
+    },
+    {
+        "game_id": 99,
+        "player": "Rajon Rondo",
+        "assists": 12
+    },
+    {
+        "game_id": 103,
+        "player": "Rajon Rondo",
+        "assists": 12
+    },
+    {
+        "game_id": 103,
+        "player": "Sean Kilpatrick",
+        "assists": 6
+    },
+    {
+        "game_id": 103,
+        "player": "Jimmy Butler",
+        "assists": 4
+    },
+    {
+        "game_id": 103,
+        "player": "Dwyane Wade",
+        "assists": 1
+    },
+    {
+        "game_id": 104,
+        "player": "Tim Frazier",
+        "assists": 10
+    },
+    {
+        "game_id": 104,
+        "player": "E'Twaun Moore",
+        "assists": 3
+    },
+    {
+        "game_id": 104,
+        "player": "Malcolm Brogdon",
+        "assists": 3
+    },
+    {
+        "game_id": 104,
+        "player": "Anthony Davis",
+        "assists": 2
+    },
+    {
+        "game_id": 104,
+        "player": "Giannis Antetokounmpo",
+        "assists": 1
+    },
+    {
+        "game_id": 114,
+        "player": "James Harden",
+        "assists": 7
+    },
+    {
+        "game_id": 114,
+        "player": "Randy Foye",
+        "assists": 7
+    },
+    {
+        "game_id": 114,
+        "player": "Ty Lawson",
+        "assists": 10
+    },
+    {
+        "game_id": 127,
+        "player": "DeMar DeRozan",
+        "assists": 7
+    },
+    {
+        "game_id": 127,
+        "player": "Greivis Vasquez",
+        "assists": 4
+    },
+    {
+        "game_id": 127,
+        "player": "Kemba Walker",
+        "assists": 3
+    },
+    {
+        "game_id": 142,
+        "player": "Derrick Rose",
+        "assists": 8
+    },
+    {
+        "game_id": 159,
+        "player": "Ty Lawson",
+        "assists": 10
+    },
+    {
+        "game_id": 159,
+        "player": "David West",
+        "assists": 5
+    },
+    {
+        "game_id": 163,
+        "player": "Dennis Schroder",
+        "assists": 10
+    },
+    {
+        "game_id": 166,
+        "player": "Kyle Lowry",
+        "assists": 6
+    },
+    {
+        "game_id": 166,
+        "player": "John Wall",
+        "assists": 8
+    },
+    {
+        "game_id": 167,
+        "player": "Kyle Lowry",
+        "assists": 6
+    },
+    {
+        "game_id": 175,
+        "player": "Russell Westbrook",
+        "assists": 8
+    },
+    {
+        "game_id": 175,
+        "player": "Dion Waiters",
+        "assists": 4
+    },
+    {
+        "game_id": 175,
+        "player": "Cameron Payne",
+        "assists": 4
+    },
+    {
+        "game_id": 175,
+        "player": "Markieff Morris",
+        "assists": 3
+    },
+    {
+        "game_id": 175,
+        "player": "Archie Goodwin",
+        "assists": 7
+    },
+    {
+        "game_id": 175,
+        "player": "P.J. Tucker",
+        "assists": 2
+    },
+    {
+        "game_id": 175,
+        "player": "Alex Len",
+        "assists": 2
+    },
+    {
+        "game_id": 196,
+        "player": "Beno Udrih",
+        "assists": 4
+    },
+    {
+        "game_id": 196,
+        "player": "Jeremy Lin",
+        "assists": 4
+    },
+    {
+        "game_id": 196,
+        "player": "Sean Kilpatrick",
+        "assists": 3
+    },
+    {
+        "game_id": 203,
+        "player": "Isaiah Thomas",
+        "assists": 6
+    },
+    {
+        "game_id": 216,
+        "player": "Jimmy Butler",
+        "assists": 6
+    },
+    {
+        "game_id": 216,
+        "player": "Kyle Lowry",
+        "assists": 8
+    },
+    {
+        "game_id": 216,
+        "player": "James Johnson",
+        "assists": 1
+    },
+    {
+        "game_id": 217,
+        "player": "John Wall",
+        "assists": 6
+    },
+    {
+        "game_id": 217,
+        "player": "Trey Burke",
+        "assists": 6
+    },
+    {
+        "game_id": 220,
+        "player": "Nikola Vucevic",
+        "assists": 7
+    },
+    {
+        "game_id": 220,
+        "player": "Norris Cole",
+        "assists": 3
+    },
+    {
+        "game_id": 223,
+        "player": "Tony Parker",
+        "assists": 7
+    },
+    {
+        "game_id": 223,
+        "player": "Tim Duncan",
+        "assists": 3
+    },
+    {
+        "game_id": 224,
+        "player": "James Harden",
+        "assists": 6
+    },
+    {
+        "game_id": 224,
+        "player": "Devin Booker",
+        "assists": 4
+    },
+    {
+        "game_id": 225,
+        "player": "Kentavious Caldwell-Pope",
+        "assists": 8
+    },
+    {
+        "game_id": 228,
+        "player": "Matt Barnes",
+        "assists": 3
+    },
+    {
+        "game_id": 228,
+        "player": "Vince Carter",
+        "assists": 2
+    },
+    {
+        "game_id": 228,
+        "player": "James Harden",
+        "assists": 5
+    },
+    {
+        "game_id": 233,
+        "player": "Reggie Jackson",
+        "assists": 20
+    },
+    {
+        "game_id": 234,
+        "player": "Chris Paul",
+        "assists": 7
+    },
+    {
+        "game_id": 234,
+        "player": "Blake Griffin",
+        "assists": 7
+    },
+    {
+        "game_id": 250,
+        "player": "Russell Westbrook",
+        "assists": 17
+    },
+    {
+        "game_id": 270,
+        "player": "Kyle Lowry",
+        "assists": 8
+    },
+    {
+        "game_id": 270,
+        "player": "DeMar DeRozan",
+        "assists": 6
+    },
+    {
+        "game_id": 273,
+        "player": "Russell Westbrook",
+        "assists": 16
+    },
+    {
+        "game_id": 274,
+        "player": "Evan Turner",
+        "assists": 7
+    },
+    {
+        "game_id": 281,
+        "player": "Kentavious Caldwell-Pope",
+        "assists": 7
+    },
+    {
+        "game_id": 281,
+        "player": "Nicolas Batum",
+        "assists": 5
+    },
+    {
+        "game_id": 284,
+        "player": "Isaiah Thomas",
+        "assists": 7
+    },
+    {
+        "game_id": 284,
+        "player": "Jimmy Butler",
+        "assists": 7
+    },
+    {
+        "game_id": 296,
+        "player": "T.J. McConnell",
+        "assists": 10
+    },
+    {
+        "game_id": 296,
+        "player": "Brook Lopez",
+        "assists": 6
+    },
+    {
+        "game_id": 300,
+        "player": "LeBron James",
+        "assists": 9
+    },
+    {
+        "game_id": 300,
+        "player": "Matthew Dellevadova",
+        "assists": 7
+    },
+    {
+        "game_id": 300,
+        "player": "Zach Lavine",
+        "assists": 6
+    },
+    {
+        "game_id": 322,
+        "player": "Ricky Rubio",
+        "assists": 11
+    },
+    {
+        "game_id": 323,
+        "player": "Damian Lillard",
+        "assists": 6
+    },
+    {
+        "game_id": 323,
+        "player": "C.J. McCollum",
+        "assists": 6
+    },
+    {
+        "game_id": 323,
+        "player": "Jrue Holiday",
+        "assists": 6
+    },
+    {
+        "game_id": 323,
+        "player": "Toney Douglas",
+        "assists": 6
+    },
+    {
+        "game_id": 332,
+        "player": "Reggie Jackson",
+        "assists": 4
+    },
+    {
+        "game_id": 332,
+        "player": "Rodney Hood",
+        "assists": 6
+    },
+    {
+        "game_id": 344,
+        "player": "Jared Dudley",
+        "assists": 10
+    },
+    {
+        "game_id": 344,
+        "player": "Isaiah Thomas",
+        "assists": 7
+    },
+    {
+        "game_id": 348,
+        "player": "Russell Westbrook",
+        "assists": 7
+    },
+    {
+        "game_id": 363,
+        "player": "Chris Paul",
+        "assists": 10
+    },
+    {
+        "game_id": 367,
+        "player": "DeMarcus Cousins",
+        "assists": 6
+    },
+    {
+        "game_id": 367,
+        "player": "Ty Lawson",
+        "assists": 6
+    },
+    {
+        "game_id": 367,
+        "player": "Reggie Jackson",
+        "assists": 11
+    },
+    {
+        "game_id": 370,
+        "player": "Kyle Lowry",
+        "assists": 9
+    },
+    {
+        "game_id": 373,
+        "player": "George Hill",
+        "assists": 7
+    },
+    {
+        "game_id": 373,
+        "player": "Russell Westbrook",
+        "assists": 8
+    },
+    {
+        "game_id": 379,
+        "player": "Chris Paul",
+        "assists": 11
+    },
+    {
+        "game_id": 379,
+        "player": "Mike Conley",
+        "assists": 10
+    },
+    {
+        "game_id": 387,
+        "player": "Rudy Gay",
+        "assists": 4
+    },
+    {
+        "game_id": 387,
+        "player": "Alexey Shved",
+        "assists": 3
+    },
+    {
+        "game_id": 387,
+        "player": "Shane Larkin",
+        "assists": 6
+    },
+    {
+        "game_id": 389,
+        "player": "Deron Williams",
+        "assists": 12
+    },
+    {
+        "game_id": 429,
+        "player": "Karl-Anthony Towns",
+        "assists": 5
+    },
+    {
+        "game_id": 429,
+        "player": "Andrew Wiggins",
+        "assists": 4
+    },
+    {
+        "game_id": 429,
+        "player": "Austin Rivers",
+        "assists": 2
+    },
+    {
+        "game_id": 432,
+        "player": "Kyrie Irving",
+        "assists": 13
+    },
+    {
+        "game_id": 459,
+        "player": "LeBron James",
+        "assists": 11
+    },
+    {
+        "game_id": 459,
+        "player": "J.R. Smith",
+        "assists": 5
+    },
+    {
+        "game_id": 459,
+        "player": "Matthew Dellavedova",
+        "assists": 7
+    },
+    {
+        "game_id": 459,
+        "player": "Jusuf Nurkic",
+        "assists": 3
+    },
+    {
+        "game_id": 464,
+        "player": "Mario Chalmers",
+        "assists": 7
+    },
+    {
+        "game_id": 464,
+        "player": "Shabazz Napier",
+        "assists": 6
+    },
+    {
+        "game_id": 473,
+        "player": "John Wall",
+        "assists": 14
+    },
+    {
+        "game_id": 511,
+        "player": "DeMarcus Cousins",
+        "assists": 9
+    },
+    {
+        "game_id": 511,
+        "player": "LeBron James",
+        "assists": 11
+    },
+    {
+        "game_id": 517,
+        "player": "Chris Paul",
+        "assists": 12
+    },
+    {
+        "game_id": 517,
+        "player": "Austin Rivers",
+        "assists": 6
+    },
+    {
+        "game_id": 546,
+        "player": "Stephen Curry",
+        "assists": 10
+    },
+    {
+        "game_id": 546,
+        "player": "Draymond Green",
+        "assists": 8
+    },
+    {
+        "game_id": 546,
+        "player": "Andrew Bogut",
+        "assists": 3
+    },
+    {
+        "game_id": 549,
+        "player": "Dwight Howard",
+        "assists": 3
+    },
+    {
+        "game_id": 549,
+        "player": "Paul Millsap",
+        "assists": 4
+    },
+    {
+        "game_id": 549,
+        "player": "Kent Bazemore",
+        "assists": 4
+    },
+    {
+        "game_id": 549,
+        "player": "James Harden",
+        "assists": 12
+    },
+    {
+        "game_id": 558,
+        "player": "Monta Ellis",
+        "assists": 5
+    },
+    {
+        "game_id": 558,
+        "player": "George Hill",
+        "assists": 5
+    },
+    {
+        "game_id": 558,
+        "player": "John Wall",
+        "assists": 5
+    },
+    {
+        "game_id": 565,
+        "player": "Jeff Teague",
+        "assists": 9
+    },
+    {
+        "game_id": 565,
+        "player": "Nikola Jokic",
+        "assists": 7
+    },
+    {
+        "game_id": 565,
+        "player": "Wilson Chandler",
+        "assists": 4
+    },
+    {
+        "game_id": 565,
+        "player": "Gary Harris",
+        "assists": 6
+    },
+    {
+        "game_id": 574,
+        "player": "Andrew Wiggins",
+        "assists": 4
+    },
+    {
+        "game_id": 591,
+        "player": "Andrew Wiggins",
+        "assists": 6
+    },
+    {
+        "game_id": 603,
+        "player": "Isaiah Thomas",
+        "assists": 8
+    },
+    {
+        "game_id": 603,
+        "player": "Amir Johnson",
+        "assists": 8
+    },
+    {
+        "game_id": 603,
+        "player": "Ish Smith",
+        "assists": 8
+    },
+    {
+        "game_id": 618,
+        "player": "Jeremy Lin",
+        "assists": 8
+    },
+    {
+        "game_id": 618,
+        "player": "LeBron James",
+        "assists": 6
+    },
+    {
+        "game_id": 623,
+        "player": "Marc Gasol",
+        "assists": 9
+    },
+    {
+        "game_id": 623,
+        "player": "Mike Conley",
+        "assists": 9
+    },
+    {
+        "game_id": 633,
+        "player": "Danilo Gallinari",
+        "assists": 3
+    },
+    {
+        "game_id": 633,
+        "player": "Evan Fournier",
+        "assists": 6
+    },
+    {
+        "game_id": 643,
+        "player": "Evan Turner",
+        "assists": 5
+    },
+    {
+        "game_id": 643,
+        "player": "Isaiah Thomas",
+        "assists": 6
+    },
+    {
+        "game_id": 643,
+        "player": "Draymond Green",
+        "assists": 7
+    },
+    {
+        "game_id": 665,
+        "player": "Joe Johnson",
+        "assists": 5
+    },
+    {
+        "game_id": 665,
+        "player": "Steve Blake",
+        "assists": 7
+    },
+    {
+        "game_id": 692,
+        "player": "Mike Conley",
+        "assists": 7
+    },
+    {
+        "game_id": 709,
+        "player": "Russell Westbrook",
+        "assists": 5
+    },
+    {
+        "game_id": 713,
+        "player": "LeBron James",
+        "assists": 12
+    },
+    {
+        "game_id": 713,
+        "player": "Kemba Walker",
+        "assists": 7
+    },
+    {
+        "game_id": 714,
+        "player": "Jeff Teague",
+        "assists": 8
+    },
+    {
+        "game_id": 714,
+        "player": "J.J. Barea",
+        "assists": 4
+    },
+    {
+        "game_id": 717,
+        "player": "John Wall",
+        "assists": 9
+    },
+    {
+        "game_id": 718,
+        "player": "Elfrid Payton",
+        "assists": 7
+    },
+    {
+        "game_id": 718,
+        "player": "Derrick Rose",
+        "assists": 7
+    },
+    {
+        "game_id": 719,
+        "player": "John Wall",
+        "assists": 9
+    },
+    {
+        "game_id": 722,
+        "player": "Ramon Sessions",
+        "assists": 9
+    },
+    {
+        "game_id": 722,
+        "player": "Reggie Jackson",
+        "assists": 9
+    }
+]
