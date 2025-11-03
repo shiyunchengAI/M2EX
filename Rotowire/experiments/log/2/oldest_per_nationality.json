@@ -1,0 +1,324 @@
+{
+    "output": {
+      "": {
+        "age": 69,
+        "name": "Gerald Henderson",
+        "nationality": ""
+      },
+      "American": {
+        "age": 65,
+        "name": "Jeff Taylor",
+        "nationality": "American"
+      },
+      "American / Bahamian": {
+        "age": 37,
+        "name": "Eric Gordon",
+        "nationality": "American / Bahamian"
+      },
+      "American / Canadian": {
+        "age": 36,
+        "name": "Robert Sacre",
+        "nationality": "American / Canadian"
+      },
+      "American / Chinese\"": {
+        "age": 32,
+        "name": "Kyle Anderson",
+        "nationality": "American / Chinese\""
+      },
+      "American / Croatian": {
+        "age": 35,
+        "name": "Justin Hamilton",
+        "nationality": "American / Croatian"
+      },
+      "American / Dominican": {
+        "age": 41,
+        "name": "Charlie Villanueva",
+        "nationality": "American / Dominican"
+      },
+      "American / Filipino": {
+        "age": 33,
+        "name": "Jordan Clarkson",
+        "nationality": "American / Filipino"
+      },
+      "American / German": {
+        "age": 43,
+        "name": "Chris Kaman",
+        "nationality": "American / German"
+      },
+      "American / Greek": {
+        "age": 36,
+        "name": "Nick Calathes",
+        "nationality": "American / Greek"
+      },
+      "American / Israeli": {
+        "age": 43,
+        "name": "Amar'e Stoudemire",
+        "nationality": "American / Israeli"
+      },
+      "American / Jamaican": {
+        "age": 39,
+        "name": "Roy Hibbert",
+        "nationality": "American / Jamaican"
+      },
+      "American / Jordanian": {
+        "age": 30,
+        "name": "Rondae Hollis-Jefferson",
+        "nationality": "American / Jordanian"
+      },
+      "American / Lebanese": {
+        "age": 34,
+        "name": "Thomas Robinson",
+        "nationality": "American / Lebanese"
+      },
+      "American / Nigerian": {
+        "age": 35,
+        "name": "Al-Farouq Aminu",
+        "nationality": "American / Nigerian"
+      },
+      "American / Puerto Rican": {
+        "age": 32,
+        "name": "Maurice Harkless",
+        "nationality": "American / Puerto Rican"
+      },
+      "American / Taiwanese": {
+        "age": 37,
+        "name": "Jeremy Lin",
+        "nationality": "American / Taiwanese"
+      },
+      "American / Turkish": {
+        "age": 33,
+        "name": "Shane Larkin",
+        "nationality": "American / Turkish"
+      },
+      "American / Ugandan": {
+        "age": 34,
+        "name": "Brandon Davies",
+        "nationality": "American / Ugandan"
+      },
+      "Argentine / Italian": {
+        "age": 48,
+        "name": "Pablo Prigioni",
+        "nationality": "Argentine / Italian"
+      },
+      "Argentine / Spanish": {
+        "age": 45,
+        "name": "Luis Scola",
+        "nationality": "Argentine / Spanish"
+      },
+      "Australian": {
+        "age": 39,
+        "name": "Aron Baynes",
+        "nationality": "Australian"
+      },
+      "Bosnian": {
+        "age": 40,
+        "name": "Mirza Teletovic",
+        "nationality": "Bosnian"
+      },
+      "Brazilian / Italian": {
+        "age": 42,
+        "name": "Marcelo Huertas",
+        "nationality": "Brazilian / Italian"
+      },
+      "British / American": {
+        "age": 42,
+        "name": "Ben Gordon",
+        "nationality": "British / American"
+      },
+      "Cameroonian, American, French": {
+        "age": 31,
+        "name": "Joel Embiid",
+        "nationality": "Cameroonian, American, French"
+      },
+      "Canadian": {
+        "age": 31,
+        "name": "Tyler Ennis",
+        "nationality": "Canadian"
+      },
+      "Canadian / American": {
+        "age": 34,
+        "name": "Tristan Thompson",
+        "nationality": "Canadian / American"
+      },
+      "Congolese": {
+        "age": 33,
+        "name": "Bismack Biyombo",
+        "nationality": "Congolese"
+      },
+      "Congolese / American": {
+        "age": 29,
+        "name": "Emmanuel Mudiay",
+        "nationality": "Congolese / American"
+      },
+      "Congolese / Spanish": {
+        "age": 36,
+        "name": "Serge Ibaka",
+        "nationality": "Congolese / Spanish"
+      },
+      "Croatian": {
+        "age": 39,
+        "name": "Damjan Rudez",
+        "nationality": "Croatian"
+      },
+      "Czech": {
+        "age": 34,
+        "name": "Tomas Satoransky",
+        "nationality": "Czech"
+      },
+      "Dominican": {
+        "age": 44,
+        "name": "Francisco Garcia",
+        "nationality": "Dominican"
+      },
+      "French": {
+        "age": 43,
+        "name": "Boris Diaw",
+        "nationality": "French"
+      },
+      "French, American": {
+        "age": 43,
+        "name": "Tony Parker",
+        "nationality": "French, American"
+      },
+      "Georgian / Turkish": {
+        "age": 41,
+        "name": "Zaza Pachulia",
+        "nationality": "Georgian / Turkish"
+      },
+      "German": {
+        "age": 31,
+        "name": "Paul Zipser",
+        "nationality": "German"
+      },
+      "Greek / American": {
+        "age": 36,
+        "name": "Kosta Koufos",
+        "nationality": "Greek / American"
+      },
+      "Greek / Nigerian": {
+        "age": 31,
+        "name": "Giannis Antetokounmpo",
+        "nationality": "Greek / Nigerian"
+      },
+      "Haitian / Canadian": {
+        "age": 44,
+        "name": "Samuel Dalembert",
+        "nationality": "Haitian / Canadian"
+      },
+      "Israeli": {
+        "age": 37,
+        "name": "Gal Mekel",
+        "nationality": "Israeli"
+      },
+      "Italian": {
+        "age": 39,
+        "name": "Marco Belinelli",
+        "nationality": "Italian"
+      },
+      "Lithuanian": {
+        "age": 36,
+        "name": "Mindaugas Kuzminskas",
+        "nationality": "Lithuanian"
+      },
+      "Lithuanian / American": {
+        "age": 29,
+        "name": "Domantas Sabonis",
+        "nationality": "Lithuanian / American"
+      },
+      "Macedonian": {
+        "age": 43,
+        "name": "Pero Antic",
+        "nationality": "Macedonian"
+      },
+      "Mexican": {
+        "age": 37,
+        "name": "Jorge Gutierrez",
+        "nationality": "Mexican"
+      },
+      "Montenegrin / Belgian": {
+        "age": 35,
+        "name": "Nikola Vucevic",
+        "nationality": "Montenegrin / Belgian"
+      },
+      "Montenegrin / Spanish": {
+        "age": 34,
+        "name": "Nikola Mirotic",
+        "nationality": "Montenegrin / Spanish"
+      },
+      "Nigerian / American": {
+        "age": 36,
+        "name": "Festus Ezeli",
+        "nationality": "Nigerian / American"
+      },
+      "Polish, American (since 2021 )": {
+        "age": 41,
+        "name": "Marcin Gortat",
+        "nationality": "Polish, American (since 2021 )"
+      },
+      "Puerto Rican": {
+        "age": 34,
+        "name": "Shabazz Napier",
+        "nationality": "Puerto Rican"
+      },
+      "Russian": {
+        "age": 39,
+        "name": "Timofey Mozgov",
+        "nationality": "Russian"
+      },
+      "Serbian": {
+        "age": 39,
+        "name": "Nikola Pekovic",
+        "nationality": "Serbian"
+      },
+      "Slovenian": {
+        "age": 43,
+        "name": "Beno Udrih",
+        "nationality": "Slovenian"
+      },
+      "Slovenian /  American": {
+        "age": 41,
+        "name": "Sasha Vujacic",
+        "nationality": "Slovenian /  American"
+      },
+      "South Sudanese / Australian": {
+        "age": 28,
+        "name": "Thon Maker",
+        "nationality": "South Sudanese / Australian"
+      },
+      "South Sudanese / British": {
+        "age": 40,
+        "name": "Luol Deng",
+        "nationality": "South Sudanese / British"
+      },
+      "Spanish": {
+        "age": 44,
+        "name": "Jose Calderon",
+        "nationality": "Spanish"
+      },
+      "Swiss": {
+        "age": 41,
+        "name": "Thabo Sefolosha",
+        "nationality": "Swiss"
+      },
+      "Tunisian": {
+        "age": 39,
+        "name": "Salah Mejri",
+        "nationality": "Tunisian"
+      },
+      "Turkish": {
+        "age": 39,
+        "name": "Omer Asik",
+        "nationality": "Turkish"
+      },
+      "Turkish/American": {
+        "age": 33,
+        "name": "Enes Kanter",
+        "nationality": "Turkish/American"
+      },
+      "{{hlist|French|Swedish|American}}, {{hlist|French|Swedish|American}}, {{hlist|French|Swedish|American}}, {{hlist|French|Swedish|American}}": {
+        "age": 40,
+        "name": "Joakim Noah",
+        "nationality": "{{hlist|French|Swedish|American}}, {{hlist|French|Swedish|American}}, {{hlist|French|Swedish|American}}, {{hlist|French|Swedish|American}}"
+      }
+    }
+  }

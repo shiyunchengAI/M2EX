@@ -1,0 +1,12 @@
+{
+    "Eastern Conference Oldest Team": {
+        "team_name": "Pistons",
+        "founding_date": "1937",
+        "conference": "Eastern"
+    },
+    "Western Conference Oldest Team": {
+        "team_name": "Kings",
+        "founding_date": "1923",
+        "conference": "Western"
+    }
+}

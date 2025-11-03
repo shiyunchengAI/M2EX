@@ -209,3 +209,7 @@ mimic_iv_cxr.db
 *.db
 /experiments/xmode/en/xmode-vqa-m3ae-star-100-en-gpt_4o-with-intent-langsmith-extract-details.json
 ArtWork/data/*
+MMQA/images
+MMQA/dataset
+MMQA/jsonl_dataset
+experiments/DataGEMS

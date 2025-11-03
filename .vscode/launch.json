@@ -12,7 +12,22 @@
             "console": "integratedTerminal",
             "env": {
                 "PYTHONPATH": "${workspaceFolder}"
-            }
+                
+            },
+            // use virtual environment
+            "python": "/home/ubuntu/.pyenv/versions/m3lx/bin/python"
+        },
+        {
+            "name": "Python Debugger: Artwork",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/ArtWork/main.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            // use virtual environment
+            "python": "/home/ubuntu/.pyenv/versions/m3lx/bin/python"
         }
     ]
 }
