@@ -1,0 +1,17 @@
+[
+    {
+        "player": "Player A",
+        "three_pointers_made": 200,
+        "nationality": "USA"
+    },
+    {
+        "player": "Player C",
+        "three_pointers_made": 180,
+        "nationality": "Spain"
+    },
+    {
+        "player": "Player B",
+        "three_pointers_made": 150,
+        "nationality": "Canada"
+    }
+]

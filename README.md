@@ -1,10 +1,10 @@
-# XMODE
+# M2EX
 
-This repository contains the code and resources for the paper [XMODE: Explainable Model for Data Extraction](https://arxiv.org/abs/2412.18428).
+This repository contains the code and resources for the paper [M2EX: Explainable Model for Data Extraction](https://openreview.net/pdf?id=ouAvpa4Bd5).
 
 ## Overview
 
-XMODE is a framework designed to enhance the explainability of data extraction models. It provides tools and methodologies to interpret and visualize the decision-making process of machine learning models used in data extraction tasks. 
+M2EX is a framework designed to enhance the explainability of data extraction models. It provides tools and methodologies to interpret and visualize the decision-making process of machine learning models used in data extraction tasks. 
 
 ### Abstract
 
@@ -13,11 +13,8 @@ In this paper, we propose XMODE - a system that enables explainable, multi-modal
 
 ## Repository Structure
 
-XMODE is a framework designed to enhance the explainability of data extraction models. It provides tools and methodologies to interpret and visualize the decision-making process of machine learning models used in data extraction tasks.
-
-## Repository Structure
-
 - `ArtWork/`: Contains artwork-related files and experiments.
+- `Rotowire/`: Contains rotowire-related files and experiments. 
 - `dataset/`: Includes EHRXQA datasets used for evaluation.
 - `experiments/`: Contains experimental scripts and results.
 - `files/`: Stores images files of the EHRXQA datasets
@@ -52,10 +49,12 @@ LANGCHAIN_API_KEY={your_langchain_api_key}
 #### Preparing the datasets:
 
 1. Preparing the databases:
-We have preprocessed the databases for both `Artwork` and `EHRXQA` datasets. You can download the preprocessed databases from the following links :
+We have preprocessed the databases for both `Artwork`, `Rotowire` and `EHRXQA` datasets. You can download the preprocessed databases from the following links :
 
    - [art.db](https://drive.google.com/uc?export=download&id=1OMyab3ZbY92gKQ9FfC0z2c6SImakESrf) to the `ArtWork` directory.
+   - [rotowire.db](https://drive.google.com/uc?export=download&id=1jDrBvwtiS6caxe1MAeD_UL4k-Fu5Qfat) to the `Rotowire` directory.
    - [mimic_iv_cxr.db](https://drive.google.com/uc?export=download&id=19o7R_nZ3vSkVn8QXXoMVfe1zw6xqXv-N) to the root directory.
+
 
 2. Preparing the images for the __EHRXQA__ dataset:
 
@@ -63,9 +62,10 @@ We have preprocessed the databases for both `Artwork` and `EHRXQA` datasets. You
 
 3. Preparing the images from the __Artwork__ dataset:
 
-   - You can follow the instructions in [repository of CAESURA](https://github.com/DataManagementLab/caesura) to download the 100 first data and copy the `images` to the `ArtWork/data/` directory. 
+   - You can follow the instructions in [repository of CAESURA](https://github.com/DataManagementLab/caesura) to download the 100 first data and copy the `images` to the `ArtWork/data/` directory.  
 
-You can get the images from the [repository of Artwork]() and copy them to the `files/` directory.
+4. The reports from the __Rotowire__ dataset is already included in the `reports/` directory, while `reports_720` contains all 720 reports from the original CAESURA dataset.
+
 
 #### Run XMODE on the datasets:
 
@@ -75,7 +75,13 @@ You can get the images from the [repository of Artwork]() and copy them to the `
 python ArtWork/main.py
 ```
 
-2. On EHRXQA Dataset
+2. On Rotowire Dataset
+
+```sh
+python Rotowire/main.py
+```
+
+3. On EHRXQA Dataset
 
 For getting the M3AE model working, you need to clone the [repository of M3AE](https://github.com/zhjohnchan/M3AE) and get the fine-tuned model from this [this thread](https://github.com/baeseongsu/ehrxqa/issues/7#issuecomment-2245718989). After the M3AE model service is deployed, you can run the following command:
 
@@ -90,15 +96,15 @@ We welcome contributions to improve XMODE. Please fork the repository and submit
 ### Citation
 
 If you use this code in your research, please cite the paper:
+![M2EX: Multi-Modal Data Exploration via Language Agents](https://openreview.net/pdf?id=ouAvpa4Bd5)
 
 ```
-@misc{nooralahzadeh2024explainablemultimodaldataexploration,
-      title={Explainable Multi-Modal Data Exploration in Natural Language via LLM Agent}, 
-      author={Farhad Nooralahzadeh and Yi Zhang and Jonathan Furst and Kurt Stockinger},
-      year={2024},
-      eprint={2412.18428},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2412.18428}, 
+@inproceedings{
+   anonymous2025multimodal,
+   title={Multi-Modal Data Exploration via Language Agents},
+   author={Farhad Nooralahzadeh, Yi Zhang, Jonathan Fürst, Kurt Stockinger},
+   booktitle={International Joint Conference on Natural Language Processing {\&} Asia-Pacific Chapter of the Association for Computational Linguistics 2025},
+   year={2025},
+   url={https://openreview.net/pdf?id=ouAvpa4Bd5}
 }
 ```

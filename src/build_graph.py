@@ -42,15 +42,15 @@ from langgraph.graph import END, MessageGraph, START
 
 
 
-def graph_construction(model,saver=None):
+def graph_construction(model, base_url=None, saver=None):
     # 
     db_path="/home/ubuntu/workspace/XMODE-LLMCompiler/mimic_iv_cxr.db"
     temperature = 0
     ## Tools
-    translate= get_text2SQL_tools(ChatOpenAI(model=model, temperature=temperature),db_path)
-    image_analysis = get_image_analysis_tools(ChatOpenAI(model=model, temperature= temperature),db_path)
+    translate= get_text2SQL_tools(ChatOpenAI(model=model, temperature=temperature, base_url=base_url),db_path)
+    image_analysis = get_image_analysis_tools(ChatOpenAI(model=model, temperature= temperature, base_url=base_url),db_path)
     tools = [translate, image_analysis]
-    llm = ChatOpenAI(model=model)
+    llm = ChatOpenAI(model=model, base_url=base_url)
    
     prompt = ChatPromptTemplate.from_messages(
     [
@@ -314,15 +314,15 @@ def graph_construction(model,saver=None):
     
     return chain
 
-def graph_construction_m3ae(model,saver=None):
+def graph_construction_m3ae(model, base_url=None, saver=None):
     # 
     db_path="/home/ubuntu/workspace/XMODE-LLMCompiler/mimic_iv_cxr.db"
     temperature=0
     ## Tools
-    translate= get_text2SQL_tools(ChatOpenAI(model=model, temperature=temperature),db_path)
+    translate= get_text2SQL_tools(ChatOpenAI(model=model, temperature=temperature, base_url=base_url),db_path)
     image_analysis = m3ae(db_path)
     tools = [translate, image_analysis]
-    llm = ChatOpenAI(model=model, temperature=temperature)
+    llm = ChatOpenAI(model=model, temperature=temperature, base_url=base_url)
    
     prompt = ChatPromptTemplate.from_messages(
     [
@@ -588,15 +588,15 @@ def graph_construction_m3ae(model,saver=None):
     
     return chain
 
-def graph_construction_report(model,saver=None):
+def graph_construction_report(model, base_url=None, saver=None):
     # 
     db_path="/home/ubuntu/workspace/XMODE-LLMCompiler/mimic_iv_cxr.db"
     temperature=0
     ## Tools
-    translate= get_text2SQL_tools(ChatOpenAI(model=model, temperature=temperature),db_path)
-    report_analysis = get_report_analysis_tools(ChatOpenAI(model=model, temperature= temperature),db_path)
+    translate= get_text2SQL_tools(ChatOpenAI(model=model, temperature=temperature, base_url=base_url),db_path)
+    report_analysis = get_report_analysis_tools(ChatOpenAI(model=model, temperature= temperature, base_url=base_url),db_path)
     tools = [translate,report_analysis]
-    llm = ChatOpenAI(model=model)
+    llm = ChatOpenAI(model=model, base_url=base_url)
    
     prompt = ChatPromptTemplate.from_messages(
     [
@@ -853,15 +853,15 @@ def graph_construction_report(model,saver=None):
     
     return chain
 
-def graph_construction_m3ae_few_shot(model, few_shots_list=None, saver=None):
+def graph_construction_m3ae_few_shot(model, few_shots_list=None, base_url=None, saver=None):
     # 
     db_path="/home/ubuntu/workspace/XMODE-LLMCompiler/mimic_iv_cxr.db"
     temperature=0
     ## Tools
-    translate= get_text2SQL_tools(ChatOpenAI(model=model, temperature=temperature),db_path)
+    translate= get_text2SQL_tools(ChatOpenAI(model=model, temperature=temperature, base_url=base_url),db_path)
     report_analysis = m3ae(db_path)
     tools = [translate, report_analysis]
-    llm = ChatOpenAI(model=model)
+    llm = ChatOpenAI(model=model, base_url=base_url)
     if few_shots_list is None or len(few_shots_list)==0:
         prompt = ChatPromptTemplate.from_messages(
             [

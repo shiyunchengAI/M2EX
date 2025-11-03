@@ -1,0 +1,657 @@
+[
+    {
+        "game_id": 6,
+        "players": []
+    },
+    {
+        "game_id": 25,
+        "players": [
+            "Marc Gasol: 6 assists",
+            "Dwyane Wade: 5 assists"
+        ]
+    },
+    {
+        "game_id": 27,
+        "players": [
+            "J.J. Barea: 11 assists"
+        ]
+    },
+    {
+        "game_id": 30,
+        "players": []
+    },
+    {
+        "game_id": 32,
+        "players": [
+            "Chris Paul: 9 assists"
+        ]
+    },
+    {
+        "game_id": 44,
+        "players": [
+            "LeBron James: 13 assists"
+        ]
+    },
+    {
+        "game_id": 46,
+        "players": [
+            "Tony Parker: 9 assists"
+        ]
+    },
+    {
+        "game_id": 57,
+        "players": [
+            "Ish Smith: 11 assists"
+        ]
+    },
+    {
+        "game_id": 67,
+        "players": []
+    },
+    {
+        "game_id": 71,
+        "players": [
+            "Deron Williams: 6 assists",
+            "Reggie Jackson: 4 assists",
+            "Ish Smith: 4 assists"
+        ]
+    },
+    {
+        "game_id": 73,
+        "players": []
+    },
+    {
+        "game_id": 80,
+        "players": [
+            "Tyreke Evans: 11 assists"
+        ]
+    },
+    {
+        "game_id": 81,
+        "players": [
+            "Rajon Rondo: 15 assists"
+        ]
+    },
+    {
+        "game_id": 89,
+        "players": []
+    },
+    {
+        "game_id": 94,
+        "players": []
+    },
+    {
+        "game_id": 95,
+        "players": [
+            "George Hill: 6 assists"
+        ]
+    },
+    {
+        "game_id": 99,
+        "players": [
+            "Carmelo Anthony: 4 assists",
+            "Arron Afflalo: 2 assists",
+            "Rajon Rondo: 12 assists",
+            "Omri Caspi: 3 assists",
+            "Darren Collison: 3 assists"
+        ]
+    },
+    {
+        "game_id": 103,
+        "players": [
+            "Rajon Rondo: 12 assists",
+            "Sean Kilpatrick: 6 assists",
+            "Jimmy Butler: 4 assists",
+            "Dwyane Wade: 1 assist"
+        ]
+    },
+    {
+        "game_id": 104,
+        "players": [
+            "Tim Frazier: 10 assists"
+        ]
+    },
+    {
+        "game_id": 114,
+        "players": [
+            "James Harden: 7 assists",
+            "Randy Foye: 7 assists",
+            "Ty Lawson: 10 assists"
+        ]
+    },
+    {
+        "game_id": 127,
+        "players": [
+            "DeMar DeRozan: 7 assists",
+            "Kemba Walker: 3 assists"
+        ]
+    },
+    {
+        "game_id": 142,
+        "players": [
+            "Derrick Rose: 8 assists"
+        ]
+    },
+    {
+        "game_id": 159,
+        "players": [
+            "Ty Lawson: 10 assists",
+            "David West: 5 assists"
+        ]
+    },
+    {
+        "game_id": 163,
+        "players": [
+            "Tony Parker: 6 assists",
+            "Dennis Schroder: 10 assists"
+        ]
+    },
+    {
+        "game_id": 166,
+        "players": [
+            "Kyle Lowry: 6 assists",
+            "John Wall: 8 assists"
+        ]
+    },
+    {
+        "game_id": 167,
+        "players": [
+            "Kyle Lowry: 6 assists"
+        ]
+    },
+    {
+        "game_id": 175,
+        "players": [
+            "Russell Westbrook: 8 assists",
+            "Archie Goodwin: 7 assists"
+        ]
+    },
+    {
+        "game_id": 196,
+        "players": [
+            "Beno Udrih: 4 assists",
+            "Jeremy Lin: 4 assists"
+        ]
+    },
+    {
+        "game_id": 203,
+        "players": [
+            "Isaiah Thomas: 6 assists"
+        ]
+    },
+    {
+        "game_id": 214,
+        "players": [
+            "Giannis Antetokounmpo: 4 assists"
+        ]
+    },
+    {
+        "game_id": 216,
+        "players": [
+            "Jimmy Butler: 6 assists",
+            "Kyle Lowry: 8 assists",
+            "James Johnson: 1 assist"
+        ]
+    },
+    {
+        "game_id": 217,
+        "players": [
+            "John Wall: 6 assists",
+            "Trey Burke: 6 assists"
+        ]
+    },
+    {
+        "game_id": 220,
+        "players": [
+            "Nikola Vucevic: 7 assists",
+            "Norris Cole: 3 assists"
+        ]
+    },
+    {
+        "game_id": 223,
+        "players": [
+            "Tim Duncan: 3 assists",
+            "Tony Parker: 7 assists"
+        ]
+    },
+    {
+        "game_id": 224,
+        "players": [
+            "James Harden: 6 assists",
+            "Devin Booker: 4 assists"
+        ]
+    },
+    {
+        "game_id": 225,
+        "players": [
+            "Kentavious Caldwell-Pope: 8 assists",
+            "Stanley Johnson: 6 assists",
+            "Thaddeus Young: 2 assists",
+            "Bojan Bogdanovic: 2 assists"
+        ]
+    },
+    {
+        "game_id": 228,
+        "players": [
+            "Matt Barnes: 3 assists",
+            "Vince Carter: 2 assists",
+            "James Harden: 5 assists"
+        ]
+    },
+    {
+        "game_id": 233,
+        "players": [
+            "Reggie Jackson: 20 assists"
+        ]
+    },
+    {
+        "game_id": 234,
+        "players": [
+            "Chris Paul: 7 assists",
+            "Blake Griffin: 7 assists",
+            "Kawhi Leonard: 5 assists"
+        ]
+    },
+    {
+        "game_id": 238,
+        "players": []
+    },
+    {
+        "game_id": 250,
+        "players": [
+            "Russell Westbrook: 17 assists"
+        ]
+    },
+    {
+        "game_id": 270,
+        "players": [
+            "Kyle Lowry: 8 assists",
+            "DeMar DeRozan: 6 assists"
+        ]
+    },
+    {
+        "game_id": 273,
+        "players": [
+            "Russell Westbrook: 16 assists"
+        ]
+    },
+    {
+        "game_id": 274,
+        "players": [
+            "Jeff Teague: 5 assists",
+            "Evan Turner: 7 assists"
+        ]
+    },
+    {
+        "game_id": 276,
+        "players": []
+    },
+    {
+        "game_id": 281,
+        "players": [
+            "Kentavious Caldwell-Pope: 7 assists",
+            "Kemba Walker: 4 assists",
+            "Nicolas Batum: 5 assists",
+            "Marco Belinelli: 2 assists"
+        ]
+    },
+    {
+        "game_id": 284,
+        "players": [
+            "Isaiah Thomas: 7 assists",
+            "Jimmy Butler: 7 assists"
+        ]
+    },
+    {
+        "game_id": 296,
+        "players": [
+            "T.J. McConnell: 10 assists",
+            "Brook Lopez: 6 assists"
+        ]
+    },
+    {
+        "game_id": 300,
+        "players": [
+            "LeBron James: 9 assists",
+            "Matthew Dellevadova: 7 assists",
+            "Zach Lavine: 6 assists"
+        ]
+    },
+    {
+        "game_id": 322,
+        "players": [
+            "Ricky Rubio: 11 assists",
+            "Michael Carter-Williams: 6 assists",
+            "Rajon Rondo: 6 assists",
+            "Jerian Grant: 3 assists",
+            "Andrew Wiggins: 4 assists",
+            "Karl-Anthony Towns: 4 assists",
+            "Nemanja Bjelica: 3 assists",
+            "Doug McDermott: 2 assists",
+            "Robin Lopez: 2 assists",
+            "Taj Gibson: 1 assist"
+        ]
+    },
+    {
+        "game_id": 323,
+        "players": [
+            "Damian Lillard: 6 assists",
+            "C.J. McCollum: 6 assists",
+            "Jrue Holiday: 6 assists",
+            "Toney Douglas: 6 assists",
+            "Ryan Anderson: 3 assists",
+            "Mason Plumlee: 4 assists"
+        ]
+    },
+    {
+        "game_id": 332,
+        "players": [
+            "Reggie Jackson: 4 assists",
+            "Rodney Hood: 6 assists"
+        ]
+    },
+    {
+        "game_id": 344,
+        "players": [
+            "Jared Dudley: 10 assists",
+            "Isaiah Thomas: 7 assists"
+        ]
+    },
+    {
+        "game_id": 348,
+        "players": [
+            "Russell Westbrook: 7 assists"
+        ]
+    },
+    {
+        "game_id": 352,
+        "players": []
+    },
+    {
+        "game_id": 363,
+        "players": [
+            "Chris Paul: 10 assists"
+        ]
+    },
+    {
+        "game_id": 367,
+        "players": [
+            "DeMarcus Cousins: 6 assists",
+            "Ty Lawson: 6 assists",
+            "Reggie Jackson: 11 assists"
+        ]
+    },
+    {
+        "game_id": 370,
+        "players": [
+            "Kyle Lowry: 9 assists",
+            "LeBron James: 7 assists"
+        ]
+    },
+    {
+        "game_id": 373,
+        "players": [
+            "George Hill: 7 assists",
+            "Russell Westbrook: 8 assists"
+        ]
+    },
+    {
+        "game_id": 379,
+        "players": [
+            "Chris Paul: 11 assists",
+            "Mike Conley: 10 assists"
+        ]
+    },
+    {
+        "game_id": 387,
+        "players": [
+            "Rudy Gay: 4 assists",
+            "Alexey Shved: 3 assists",
+            "Shane Larkin: 6 assists"
+        ]
+    },
+    {
+        "game_id": 388,
+        "players": []
+    },
+    {
+        "game_id": 389,
+        "players": [
+            "Deron Williams: 12 assists"
+        ]
+    },
+    {
+        "game_id": 410,
+        "players": []
+    },
+    {
+        "game_id": 429,
+        "players": [
+            "Karl-Anthony Towns: 5 assists",
+            "Andrew Wiggins: 4 assists",
+            "Austin Rivers: 2 assists"
+        ]
+    },
+    {
+        "game_id": 432,
+        "players": [
+            "Kyrie Irving: 13 assists",
+            "Malcolm Brogdon: 7 assists",
+            "LeBron James: 6 assists",
+            "Giannis Antetokounmpo: 5 assists",
+            "Richard Jefferson: 4 assists",
+            "Matthew Dellavedova: 3 assists",
+            "Jabari Parker: 2 assists"
+        ]
+    },
+    {
+        "game_id": 459,
+        "players": [
+            "LeBron James: 11 assists"
+        ]
+    },
+    {
+        "game_id": 464,
+        "players": [
+            "Mario Chalmers: 7 assists"
+        ]
+    },
+    {
+        "game_id": 470,
+        "players": []
+    },
+    {
+        "game_id": 473,
+        "players": [
+            "John Wall: 14 assists"
+        ]
+    },
+    {
+        "game_id": 511,
+        "players": [
+            "DeMarcus Cousins: 9 assists",
+            "LeBron James: 11 assists"
+        ]
+    },
+    {
+        "game_id": 517,
+        "players": [
+            "Chris Paul: 12 assists",
+            "Austin Rivers: 6 assists"
+        ]
+    },
+    {
+        "game_id": 546,
+        "players": [
+            "Stephen Curry: 10 assists",
+            "Draymond Green: 8 assists",
+            "Andrew Bogut: 3 assists"
+        ]
+    },
+    {
+        "game_id": 549,
+        "players": [
+            "Dwight Howard: 3 assists",
+            "Paul Millsap: 4 assists",
+            "Kent Bazemore: 4 assists",
+            "James Harden: 12 assists"
+        ]
+    },
+    {
+        "game_id": 558,
+        "players": [
+            "Monta Ellis: 5 assists",
+            "George Hill: 5 assists",
+            "John Wall: 5 assists"
+        ]
+    },
+    {
+        "game_id": 565,
+        "players": [
+            "Jeff Teague: 9 assists",
+            "Nikola Jokic: 7 assists",
+            "Wilson Chandler: 4 assists",
+            "Gary Harris: 6 assists"
+        ]
+    },
+    {
+        "game_id": 570,
+        "players": []
+    },
+    {
+        "game_id": 574,
+        "players": []
+    },
+    {
+        "game_id": 580,
+        "players": [
+            "Zach LaVine: 4 assists"
+        ]
+    },
+    {
+        "game_id": 591,
+        "players": [
+            "Jabari Parker: 3 assists",
+            "Giannis Antetokounmpo: 5 assists",
+            "Andrew Wiggins: 6 assists"
+        ]
+    },
+    {
+        "game_id": 603,
+        "players": [
+            "Isaiah Thomas: 8 assists",
+            "Ish Smith: 8 assists"
+        ]
+    },
+    {
+        "game_id": 604,
+        "players": []
+    },
+    {
+        "game_id": 616,
+        "players": []
+    },
+    {
+        "game_id": 618,
+        "players": [
+            "Jeremy Lin: 8 assists",
+            "LeBron James: 6 assists"
+        ]
+    },
+    {
+        "game_id": 623,
+        "players": [
+            "Marc Gasol: 9 assists",
+            "Mike Conley: 9 assists"
+        ]
+    },
+    {
+        "game_id": 633,
+        "players": [
+            "Danilo Gallinari: 3 assists",
+            "Evan Fournier: 6 assists"
+        ]
+    },
+    {
+        "game_id": 643,
+        "players": [
+            "Evan Turner: 5 assists",
+            "Isaiah Thomas: 6 assists",
+            "Draymond Green: 7 assists"
+        ]
+    },
+    {
+        "game_id": 650,
+        "players": [
+            "Joe Johnson: 6 assists"
+        ]
+    },
+    {
+        "game_id": 654,
+        "players": []
+    },
+    {
+        "game_id": 665,
+        "players": [
+            "Steve Blake: 7 assists"
+        ]
+    },
+    {
+        "game_id": 686,
+        "players": []
+    },
+    {
+        "game_id": 692,
+        "players": [
+            "Mike Conley: 7 assists",
+            "Jose Calderon: 6 assists"
+        ]
+    },
+    {
+        "game_id": 697,
+        "players": []
+    },
+    {
+        "game_id": 709,
+        "players": []
+    },
+    {
+        "game_id": 713,
+        "players": [
+            "LeBron James: 12 assists"
+        ]
+    },
+    {
+        "game_id": 714,
+        "players": [
+            "Jeff Teague: 8 assists"
+        ]
+    },
+    {
+        "game_id": 717,
+        "players": [
+            "John Wall: 9 assists",
+            "Brandon Knight: 6 assists"
+        ]
+    },
+    {
+        "game_id": 718,
+        "players": [
+            "Elfrid Payton: 7 assists",
+            "Derrick Rose: 7 assists"
+        ]
+    },
+    {
+        "game_id": 719,
+        "players": [
+            "John Wall: 9 assists"
+        ]
+    },
+    {
+        "game_id": 722,
+        "players": [
+            "Ramon Sessions: 9 assists",
+            "Reggie Jackson: 9 assists"
+        ]
+    }
+]
