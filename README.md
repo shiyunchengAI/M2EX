@@ -1,15 +1,31 @@
-# M2EX
+# M<sup>2</sup>EX
 
-This repository contains the code and resources for the paper [M2EX: Explainable Model for Data Extraction](https://openreview.net/pdf?id=ouAvpa4Bd5).
+This repository contains the code and resources for the paper [M<sup>2</sup>EX: Explainable Model for Data Extraction](https://openreview.net/pdf?id=ouAvpa4Bd5).
+
+## Citation
+
+If you use this code in your research, please cite the paper:
+[Multi-Modal Data Exploration via Language Agents](https://openreview.net/pdf?id=ouAvpa4Bd5)
+
+```
+@inproceedings{
+   anonymous2025multimodal,
+   title={Multi-Modal Data Exploration via Language Agents},
+   author={Farhad Nooralahzadeh, Yi Zhang, Jonathan Fürst, Kurt Stockinger},
+   booktitle={International Joint Conference on Natural Language Processing {\&} Asia-Pacific Chapter of the Association for Computational Linguistics 2025},
+   year={2025},
+   url={https://openreview.net/pdf?id=ouAvpa4Bd5}
+}
+```
 
 ## Overview
 
-M2EX is a framework designed to enhance the explainability of data extraction models. It provides tools and methodologies to interpret and visualize the decision-making process of machine learning models used in data extraction tasks. 
+M<sup>2</sup>EX is a framework designed to enhance the explainability of data extraction models. It provides tools and methodologies to interpret and visualize the decision-making process of machine learning models used in data extraction tasks.
 
 ### Abstract
 
 _International enterprises, organizations, or hospitals collect large amounts of multi-modal data stored in databases, text documents, images, and videos. While there has been recent progress in the separate fields of multi-modal data exploration as well as in database systems that automatically translate natural language questions to database query languages, the research challenge of querying database systems combined with other unstructured modalities such as images in natural language is widely unexplored.
-In this paper, we propose XMODE - a system that enables explainable, multi-modal data exploration in natural language. Our approach is based on the following research contributions: (1) Our system is inspired by a real-world use case that enables users to explore multi-modal information systems. (2) XMODE leverages a LLM-based agentic AI framework to decompose a natural language question into subtasks such as text-to-SQL generation and image analysis. (3) Experimental results on multi-modal datasets over relational data and images demonstrate that our system outperforms state-of-the-art multi-modal exploration systems, excelling not only in accuracy but also in various performance metrics such as query latency, API costs, planning efficiency, and explanation quality, thanks to the more effective utilization of the reasoning capabilities of LLMs._
+In this paper, we propose M<sup>2</sup>EX - a system that enables explainable, multi-modal data exploration in natural language. Our approach is based on the following research contributions: (1) Our system is inspired by a real-world use case that enables users to explore multi-modal information systems. (2) M<sup>2</sup>EX leverages a LLM-based agentic AI framework to decompose a natural language question into subtasks such as text-to-SQL generation and image analysis. (3) Experimental results on multi-modal datasets over relational data and images demonstrate that our system outperforms state-of-the-art multi-modal exploration systems, excelling not only in accuracy but also in various performance metrics such as query latency, API costs, planning efficiency, and explanation quality, thanks to the more effective utilization of the reasoning capabilities of LLMs._
 
 ## Repository Structure
 
@@ -20,7 +36,7 @@ In this paper, we propose XMODE - a system that enables explainable, multi-modal
 - `files/`: Stores images files of the EHRXQA datasets
 - `preprocess/`: Scripts for preprocessing data.
 - `reports/`: Stores reports files of the EHRXQA datasets
-- `src/`: Source code for the XMODE framework.
+- `src/`: Source code for the M2EX framework.
 - `tools/`: Utility scripts and tools.
 - `README.md`: This file.
 - `requirements.txt`: List of dependencies required to run the project.
@@ -67,7 +83,7 @@ We have preprocessed the databases for both `Artwork`, `Rotowire` and `EHRXQA` d
 4. The reports from the __Rotowire__ dataset is already included in the `reports/` directory, while `reports_720` contains all 720 reports from the original CAESURA dataset.
 
 
-#### Run XMODE on the datasets:
+#### Run M2EX on the datasets:
 
 1. On Artwork Dataset
 
@@ -91,20 +107,5 @@ python main_m3ae_EHRXQA.py
 
 ### Contributing
 
-We welcome contributions to improve XMODE. Please fork the repository and submit pull requests.
+We welcome contributions to improve M<sup>2</sup>EX. Please fork the repository and submit pull requests.
 
-### Citation
-
-If you use this code in your research, please cite the paper:
-![M2EX: Multi-Modal Data Exploration via Language Agents](https://openreview.net/pdf?id=ouAvpa4Bd5)
-
-```
-@inproceedings{
-   anonymous2025multimodal,
-   title={Multi-Modal Data Exploration via Language Agents},
-   author={Farhad Nooralahzadeh, Yi Zhang, Jonathan Fürst, Kurt Stockinger},
-   booktitle={International Joint Conference on Natural Language Processing {\&} Asia-Pacific Chapter of the Association for Computational Linguistics 2025},
-   year={2025},
-   url={https://openreview.net/pdf?id=ouAvpa4Bd5}
-}
-```
