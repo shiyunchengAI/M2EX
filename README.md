@@ -1,6 +1,6 @@
 # M<sup>2</sup>EX
 
-This repository contains the code and resources for the paper [M<sup>2</sup>EX: Explainable Model for Data Extraction](https://openreview.net/pdf?id=ouAvpa4Bd5).
+This repository contains the code and resources for the paper [Multi-Modal Data Exploration via Language Agents](https://openreview.net/pdf?id=ouAvpa4Bd5).
 
 ## Citation
 
