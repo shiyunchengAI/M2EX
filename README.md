@@ -1,11 +1,11 @@
 # M<sup>2</sup>EX
 
-This repository contains the code and resources for the paper [Multi-Modal Data Exploration via Language Agents](https://openreview.net/pdf?id=ouAvpa4Bd5).
+This repository contains the code and resources for the paper [Multi-Modal Data Exploration via Language Agents](https://aclanthology.org/2025.findings-ijcnlp.47.pdf).
 
 ## Citation
 
 If you use this code in your research, please cite the paper:
-[Multi-Modal Data Exploration via Language Agents](https://openreview.net/pdf?id=ouAvpa4Bd5)
+[Multi-Modal Data Exploration via Language Agents](https://aclanthology.org/2025.findings-ijcnlp.47.pdf)
 
 ```
 @inproceedings{
