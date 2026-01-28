@@ -6,36 +6,37 @@ from langchain_core.pydantic_v1 import BaseModel, Field
 from langchain_core.runnables import RunnableConfig
 from langchain_core.tools import StructuredTool
 from langchain_openai import ChatOpenAI
-import sqlite3
-import re
-import json
+
 from langchain_community.utilities import SQLDatabase
+# from langchain import SQLDatabase
 from sqlalchemy import create_engine
 from typing import Any, Callable, Dict, Literal, Optional, Sequence, Type, Union,List
+import re, sys,os
+sys.path.append(os.path.dirname(os.getcwd()) + '/src')
+
+# The Table 'players' contains general information about basketball players such as their name, position they play (e.g., Power forward Small forward, Power forward center,Right fielder,...), birth_date, nationality.
+# The Table 'teams' contains general information about basketball teams.
+# The Table 'players_to_games' maps players to games. This table only links player to the game.
+# The Table 'teams_to_games' maps teams to games. This table only links team to the game.
+# The Table 'game_reports' contains file path to the text game reports about basketball games. The report includes the majority of the game's statistics and results, which should be extracted using text analysis tools.
 
 from src.utils import _get_db_schema
 
-# @TODO: Adapt the following code to rotowire. 
 _meta_data="""
-The column 'title' in the table contains the title of the artwork. Type: TEXT.
-The column 'inception' in the table contains the date when the artwork was created. Type: DATETIME.
-The column 'movement' in the table contains the art movement that the artwork belongs to. Type: TEXT.
-The column 'genre' in the table contains the genre of the artwork. Type: TEXT.
-The column 'image_url' in the table contains the URL of the image of the artwork. Type: TEXT.
-The column 'img_path' in the table contains the path to the image of the artwork in the local system. Type: TEXT.
+
+
 """
 
 _DESCRIPTION = (
     "text2SQL(problem: str, context: Optional[Union[str,list[str]]])-->str\n"
     "The input for this tools should be `problem` as a textual question\n"
     # Context specific rules below
-    " - You can optionally provide a list of strings as `context` to help the agent solve the problem. "
+    "You can optionally provide a list of strings as `context` to help the agent solve the problem. "
     "If there are multiple contexts you need to answer the question, you can provide them as a list of strings.\n"
-    "In the 'context' you could add any other information that you think is required to generate te SQL code. It can be the information from previous taks.\n" 
+    "In the 'context' you could add any other information that you think is required to generate te SQL code. It can be the information from previous tasks.\n" 
     "This tools is able to translate the question to the SQL code considering the database information.\n"
     "The SQL code can be executed using sqlite3 library.\n"
     "Use the output of running generated SQL code to answer the question.\n"
-    
 )
 
 
@@ -45,13 +46,12 @@ You should analyse the question, context and the database schema and come with t
 Provide all the required information in the SQL code to answer the original user question that may required in other tasks utilizing the relevant database schema.
 Ensure you include all necessary information, including columns used for filtering, especially when the task involves plotting or data exploration.
 This must be taken into account when performing any time-based data queries or analyses.
-if the question asks for information that is not found in the database schema, you must retrieve the `ima_path` for image analysis task.
 Translate a text question into a SQL query that can be executed on the SQLite database.
-List of Businnes Roles to take into account during the translation task:
-1- To calculate century from inception field use : (CAST(strftime('%Y', inception) AS INTEGER) - 1) / 100 + 1
+You should stick to the available schema including tables and columns in the database and should not bring any new tables or columns.
+In SQL query, don't create any alias for the tables or columns. User their original names.
 ....
 """
-#If you want to consider "now" or "current_time", then replace them with strftime('2105-12-31 23:59:59').
+
 _ADDITIONAL_CONTEXT_PROMPT = """
 """
 
@@ -69,46 +69,23 @@ class ExecuteCode(BaseModel):
     )
     
 
-# def _clean_query(q):
-#     res=q.replace('\n'," ").replace('%y','%Y').replace('current_time',"strftime('2105-12-31 23:59:59')").replace('now',"strftime('2105-12-31 23:59:59')")
-#     return res
-
-
-# def _parse_input(input_text: str) -> dict:
-#     """
-#     Args:
-#         input_text (str): The text containing input in dict format.
-
-#     Returns:
-#         dict: The parsed sub-questions as a structured dictionary.
-#     """
-#     try:
-#         # Remove any potential non-JSON text and extract the JSON part
-#         json_match = re.search(r'\{.*\}', input_text, re.DOTALL)
-#         if json_match:
-#             input_text_json = json_match.group(0)
-#             input_text = json.loads(input_text_json)
-#         else:
-#             raise ValueError("No JSON object found in the text")
-#         return input_text
-#     except (json.JSONDecodeError, ValueError) as e:
-#         print(f"Error parsing sub-questions: {e}")
-#         return {
-#             "tables":[],
-#             "columns":[]
-#         }
     
 def _execute_sql_query(query: str, db_path: str, as_dict=True) -> Dict[str, Any]:
     try:
         if as_dict:
             import sqlite3
+            import json
             conn = sqlite3.connect(db_path)
             conn.row_factory = sqlite3.Row
             cur = conn.cursor()
             # print("SQL:",change_current_time(query))
             cur.execute(query)
             results = [dict(row) for row in cur.fetchall()]
-            # print("results of SQL",results)
+            # # Ensure results can be serialized to JSON
+            # json_str = json.dumps(results)
+            # json.loads(json_str)  # Validate JSON loadable
+            # results = json_str
+            conn.close()
         else:
             engine = create_engine(f'sqlite:///{db_path}')
             database = SQLDatabase(engine, sample_rows_in_table_info=0)
@@ -131,19 +108,17 @@ def get_text2SQL_tools(llm: ChatOpenAI, db_path:str):
         results (SQL QUERY str)
     """
 
-    _db_schema = _get_db_schema(db_path)
+    _db_schema = _get_db_schema(db_path,sample_rows_in_table_info=3)
     
     prompt = ChatPromptTemplate.from_messages(
         [
             ("system", _SYSTEM_PROMPT),
             ("user", "{problem}"),
-            ("user", f"{_db_schema}/n{_meta_data}"),
+            ("user", f"{_meta_data} {_db_schema}"),
             MessagesPlaceholder(variable_name="info", optional=True),
         ]
     )
-    # extractor = create_structured_output_runnable(ExecuteCode, llm, prompt)
     extractor= prompt | llm.with_structured_output(ExecuteCode)
-    # extractor= prompt | llm # for debugging
     
     def text2SQL(
         problem: str,
